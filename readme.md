@@ -17,7 +17,7 @@ The system architecture consists of two main components:
 Backend server: An Express.js server handles incoming requests, communicates with the database, and sends notifications to customers when their orders are ready.
 
 # Note 
-Project will prepopulate some items by default in Database using `populate-db.ts`
+Please note that the project includes a `populate-db.ts` file that automatically adds some default items to the database.
 
 ## Tech Stack
 
@@ -52,7 +52,7 @@ The system has 5 endpoints:
 - GET /orders/:id: Retrieves the details of a specific order.
 
 ## How to Use
-    Clone the repository: git clone https://github.com/yourusername/coffee-shop-ordering-system.git
+    Clone the repository: git clone https://github.com/faizk-dev/CoffeeShop
 
 ## Install the dependencies: 
     npm install
